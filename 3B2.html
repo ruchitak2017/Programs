@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Q. 2) : Write a PHP script for the following: Design a form having a text box and a drop down list
+    containing any 3 separators(e.g. #, |, %, @, ! or comma) accept a strings from the user and also a
+    separator.
+    a. Splitthe string into separate words using the given separator.
+    b. Replace all the occurrences of separator in the given string with some other separator.
+    c. Find the last word in the given string(Use strrstr() function).-->
+    <fieldset style ="width:450;">
+        <legend >Assignment 3</legend>
+        <form action="3B2.php" method="GET">
+            Enter The String : 
+            <input type="text" name= "s1"><br><br>
+            <select name="seperator">
+                <option value="#"> # </option>
+                <option value="|"> | </option>
+                <option value="%"> % </option>
+                <option value="@"> @ </option>
+                <option value="!"> ! </option>
+                <option value=","> , </option>
+            </select>
+            <fieldset style = "width:430;">
+                <legend >Select Operation</legend>
+                <input type="radio" name ="op" value='a' checked>  a. Splitthe string into separate words using the given separator.<br><br>
+                <input type="radio" name ="op" value='b'> b. Replace all the occurrences of separator in the given string with some other separator.<br><br>
+                <input type="radio" name ="op" value='c'> c. Find the last word in the given string(Use strrstr() function).<br><br>
+            </fieldset>    
+            <input type="SUBMIT"  name = "SUBMIT" Value = "SUBMIT">
+        </form>
+    </fieldset>
+</body>
+</html>

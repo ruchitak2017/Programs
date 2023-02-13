@@ -1,0 +1,19 @@
+ul li
+{
+	color:purple;
+	font-size:15px;
+	font-family:"TimesNewRoman";
+}
+ol li
+{
+	color:red;
+	font-size:20px;
+	font-family:"Arial";
+	font-weight:bold;
+}
+li
+{
+	color:blue;
+	font-size:30px;
+	font-family:"Algerian";
+}

@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Q: 2) Write a PHP script for the following: Design a form to accept a string.
+a. Write a function to find the length of given string without using built in functions.
+b. Write a function to count the total number of vowels i.e. (a,e,i,o,u) ) from the string.
+c. Convert the given string to lowercase and then to Title case.
+d. Pad the given string with “*” from left and right both the sides.
+e. Remove the leading whitespaces from the given string.
+f. Find the reverse of given string.(use built-in functions)
+(Use radio buttons and the concept of function. Use ‘include’ construct or ‘require’ stmt.)
+-->
+<fieldset style ="width:450;">
+    <legend >Assignment 3</legend>
+    <form action="3A2.php" method="GET">
+        Enter The String : 
+        <input type="text" name= "s1"><br><br>
+        <fieldset style = "width:430;">
+            <legend >Select Operation</legend>
+            <input type="radio" name ="op" value="Len" checked> Write a function to find the length of given string without using built in functions.<br><br>
+            <input type="radio" name ="op" value="VCnt"> Write a function to count the total number of vowels i.e. (a,e,i,o,u) ) from the string.<br><br>
+            <input type="radio" name ="op" value="Strlwr"> Convert the given string to lowercase and then to Title case.<br><br>
+            <input type="radio" name ="op" value="Strpad"> Pad the given string with “*” from left and right both the sides.<br><br>
+            <input type="radio" name ="op" value="Strtrim"> Remove the leading whitespaces from the given string.<br><br>
+            <input type="radio" name ="op" value="Strrev"> Find the reverse of given string.(use built-in functions)<br><br>
+        </fieldset>    
+        <input type="SUBMIT"  name = "SUBMIT" Value = "SUBMIT">
+    </form>
+</fieldset>
+</body>
+</html>
